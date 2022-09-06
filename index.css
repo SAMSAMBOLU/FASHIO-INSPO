@@ -1,0 +1,70 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+section{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(./IMG/bg_image\ \(1\).jpg);
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    
+}
+ section .navbar-toggler-icon{
+    color: white;
+}
+section .navbar-brand{
+    font-family: Helvetica;
+    letter-spacing: 0.10rem;
+    font-size: 24px;
+    letter-spacing: 22%;
+    margin-left: 12vw;
+}
+section .nav-link{
+    font-family: Helvetica;
+    font-size: 18px;
+}
+section .versatile{
+    position: absolute;
+    top: 50vh;
+    left: 70px;
+
+}
+section .Item{
+    font-style: italic;
+    font-size: 840%; 
+    width: 400;
+    line-height: 70%;
+    vertical-align: Top;
+    font-family: 'Crimson Foam', sans-serif;
+}
+section .closet{
+    font-family: Playfair Display;
+    font-size: 260%;
+    margin-left: 32%;
+    letter-spacing: 6%;
+}
+section .btn{
+    margin-left: 34vw;
+    background: black;
+    color: white;
+    margin-top: -7%
+    
+}
+section .social{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    position: absolute;
+    top: 74vh;
+    left: 93vw;
+    
+
+}
+section .con{
+    padding: 1rem;
+}
