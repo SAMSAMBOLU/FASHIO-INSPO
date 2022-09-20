@@ -9,6 +9,12 @@ body{
 a{
     text-decoration: none;
 }
+ ul li{
+    list-style: none;
+ }
+.row{
+    border: none;
+}
 section{
     background-image:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(./IMG/bg_image\ \(1\).jpg);
     height: 100vh;
@@ -28,9 +34,10 @@ section .navbar-brand{
     letter-spacing: 22%;
     margin-left: 12vw;
 }
+
 section .nav-link{
     font-family: Helvetica;
-    font-size: 18px;
+    font-size: 16px;
 }
 section .versatile{
     position: absolute;
@@ -69,6 +76,13 @@ section .social{
     
 
 }
+section .icon{
+    font-size: 20px;
+}
+section .active{
+    font-size: 16px;
+    font-weight: 500;
+}
 article .card{
     border: none;
 }
@@ -80,7 +94,7 @@ article .one{
     font-size: 11px;
     font-weight: bolder;
 }
-article a{
+ a{
     color: black;
     font-family: Playfair Display;
     font-weight: bolder;
@@ -96,3 +110,216 @@ article a:hover{
 article .line{
     margin-top: -5em;
 }
+article .card-text{
+    font-weight: 600;
+}
+ main {
+    background: rgba(244, 234, 223, 1);
+    margin-top: -10px;
+    
+}
+ .inspiration{
+    font-family: 'Crimson Foam', sans-serif;
+    margin-top: 40px;
+    font-size: 112px;
+    font-weight: 300;
+    /* font-weight: ; */
+}
+main .inspire{
+    margin: 10px;
+}
+main .view{
+    margin-top: 80px;
+}
+ hr{
+    width: 250px;
+    font-weight: bolder;
+    margin-top: 110px;
+}
+main a{
+    color: black;
+    font-family: Playfair Display;
+    font-weight: bolder;
+    font-size: 20px;
+
+}
+main a:hover{
+    text-decoration: underline;
+    color: red;
+}
+footer{
+    background: rgba(244, 234, 223, 1);
+    margin-top: 80px;
+    
+}
+footer .follow-us{
+    font-family: 'Crimson Foam', sans-serif;
+    margin-top: 40px;
+    font-size: 112px;
+    
+}
+footer .Follow{
+    display: flex;
+}
+footer hr{
+    width: 250px;
+}
+footer img{
+    width: 220px;
+    height: 500px;
+    object-fit: cover;
+}
+footer a{
+    text-decoration: none;
+    /* column-gap: 40px; */
+    color: black;
+    margin-left: 20px;
+    
+}
+ footer span{
+    margin-left: 42vw;
+    
+ }
+ footer .brand{
+    font-family: Helvetica;
+    letter-spacing: 0.10rem;
+    font-size: 18px;
+    letter-spacing: 22%;
+    margin-left: 5vw;
+ }
+ section .offcanvas-end{
+    position: absolute;
+    left: 0px;
+    height: 100vh;
+    top: 0px;
+    width: 100vw;
+ }
+
+
+ @media (width:360px) {
+    section .navbar-brand{
+       font-size: 16px;
+        letter-spacing: 16%;
+        margin-left: 2vw;
+    }
+    /* section .nav-link{
+        font-family: Helvetica;
+        font-size: 12px;
+        color: black;
+    } */
+    section .versatile{
+        position: absolute;
+        top: 30vh;
+        left: 40px;
+    
+    }
+    section .closet{
+        margin-left: 25%;
+    }
+    
+ }
+ @media (max-width:600px) {
+    
+    
+
+    section .navbar-brand{
+        font-family: Helvetica;
+        letter-spacing: 0.10rem;
+        font-size: 15px;
+        letter-spacing: 22%;
+        margin-left: 5vw;
+    }
+    section .nav-link{
+        font-family: Helvetica;
+        font-size: 11px;
+        /* margin-left: -80px; */
+        /* display: none; */
+    }
+    .footer{
+        text-align: center;
+    }
+    .footer img{
+        width: 100px;
+        height: 100px;
+        margin: 5px;
+        border-radius: 5px;
+    }
+    footer .row{
+        display: flex;
+        flex-direction: column;
+        column-gap: 4px;
+        margin: 3px;
+        
+    }
+    footer span{
+        margin-left: 26vw;
+        
+     }
+    section .closet{
+        margin-left: 20%;
+    }
+    section .versatile{
+        position: absolute;
+        top: 40vh;
+        left: 30px;
+    
+    }
+    section .Item{
+        font-style: italic;
+        font-size: 660%; 
+        width: 300;
+        line-height: 70%;
+        vertical-align: Top;
+        font-family: 'Crimson Foam', sans-serif;
+    }
+    section .closet{
+        font-family: Playfair Display;
+        font-size: 110%;
+        margin-left: 12%;
+        letter-spacing: 6%;
+    }
+    section .social{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        position: absolute;
+        top: 74vh;
+        left: 80vw;
+        
+    
+    }
+    section .btn{
+        margin-left: 34vw;
+        background: black;
+        color: white;
+        margin-top: -4%
+        
+    }
+    section .icon{
+        font-size: 18px;
+    }
+    main .inspiration{
+        font-family: 'Crimson Foam', sans-serif;
+        margin-top: 40px;
+        font-size: 80px;
+        font-weight: 300;
+        
+        /* font-weight: ; */
+    }
+
+   
+    
+
+
+
+
+ }
+ @media (min-width:600px) {
+    
+       
+    
+    
+    
+ }
+
+ 
