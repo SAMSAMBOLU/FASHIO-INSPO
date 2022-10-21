@@ -8,16 +8,18 @@
     <link rel="stylesheet" href="bootstrap-5.2.0-dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="icofont/icofont.min.css">
     <link rel="stylesheet" href="index.css">
+    <script src="./index.js"></script>
 </head>
 <body>
     <section>
       <nav class="navbar bg-0 fixed-top">
         <div class="container-fluid">
-          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
-            <span class="navbar-toggler-icon"></span>
+          <button class="navbar-toggler  type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+            <!-- <span class="navbar-toggler-icon  "></span> -->
+            <i class="icofont-navigation-menu text-white"></i>
           </button>
           <a class="navbar-brand text-light" href="index.html">FASHION INSPO</a>
-          <a  class="nav-link text-light hover-zoom"href="#">INSPIRATION</a>
+          <a  class="nav-link text-light hover-zoom" href="inspiration.html">INSPIRATION</a>
           
           <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
             <div class="offcanvas-header">
@@ -26,7 +28,7 @@
             </div>
             <div class="offcanvas-body">
               <hr>
-              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 m-0">
                 <li class="nav-item">
                   <a class="nav-link active " aria-current="page" href="index.html">FASHION</a>
                 </li>
@@ -179,7 +181,7 @@
             <h5 class="inspiration">Inspirations</h5>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <hr>
           </div>  
-          <a href="#" class="view text-danger">VIEW ALL</a>
+          <button class="view text-danger btn btn-light w-0" onclick="show()">View all</button>
         </div>
         <div class="row d-flex justify-content-evenly m-3 mb-5 mt-5 border-none ">
             <div class="card  " style="width: 25rem; border: none; background-color: transparent;">
@@ -205,35 +207,62 @@
             </div>
 
         </div>
-        <div class="row d-flex justify-content-evenly m-3 mb-5 mt-5 border-none ">
+        <div class="view-all">
+          <div class="row d-flex justify-content-evenly m-3 mb-5 mt-5 border-none ">
+            <div class="card  " style="width: 25rem; border: none; background-color: transparent;">
+                <img src="./IMG/Rectangle 3304.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title"><a href="#">10 simple ways to style Flannel shirts</a></h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+            </div>
+            <div class="card" style="width: 25rem; background-color: transparent; border: none;">
+                <img src="./IMG/Rectangle 3305.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title"><a href="#">How To Style your Tailored pants</a></h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+            </div>
+            <div class="card" style="width: 25rem; background-color: transparent;border: none;">
+                <img src="./IMG/Rectangle 3306.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title"><a href="#">Friday Hijab Fashion</a></h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+            </div>
+  
+        </div>
+       <div id="click" hidden>
+         <div class="row d-flex justify-content-evenly m-3 mb-5 mt-5 border-none ">
           <div class="card  " style="width: 25rem; border: none; background-color: transparent;">
               <img src="./IMG/Rectangle 3304.jpg" class="card-img-top" alt="...">
               <div class="card-body">
-                <h5 class="card-title"><a href="#">10 simple ways to style Flannel shirts</a></h5>
+                <h5 class="card-title"><a href="#">Ways Of Styling Tank Tops</a></h5>
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
               </div>
           </div>
           <div class="card" style="width: 25rem; background-color: transparent; border: none;">
               <img src="./IMG/Rectangle 3305.png" class="card-img-top" alt="...">
               <div class="card-body">
-                <h5 class="card-title"><a href="#">How To Style your Tailored pants</a></h5>
+                <h5 class="card-title"><a href="#">How To Style Oversized T-shirt</a></h5>
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
               </div>
           </div>
           <div class="card" style="width: 25rem; background-color: transparent;border: none;">
               <img src="./IMG/Rectangle 3306.png" class="card-img-top" alt="...">
               <div class="card-body">
-                <h5 class="card-title"><a href="#">Friday Hijab Fashion</a></h5>
+                <h5 class="card-title"><a href="#">Monday Styles</a></h5>
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
               </div>
           </div>
-
+  
       </div>
-      <div class="row d-flex justify-content-evenly m-3 mb-5 mt-5 border-none ">
+      <input type="checkbox" name="" id=""> 
+      <div class="row d-flex justify-content-evenly m-3 mb-5 mt-5 border-none " >
         <div class="card  " style="width: 25rem; border: none; background-color: transparent;">
             <img src="./IMG/Rectangle 3304.jpg" class="card-img-top" alt="...">
             <div class="card-body">
-              <h5 class="card-title"><a href="#">Ways Of Styling Tank Tops</a></h5>
+              <h5 class="card-title"><a href="#">10 Simple and Sexy Ankara Gowns</a></h5>
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
             </div>
         </div>
@@ -251,37 +280,11 @@
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
             </div>
         </div>
-
+       </div>
+  
     </div>
-    <!-- <input type="checkbox" name="" id=""> -->
-    <div class="row d-flex justify-content-evenly m-3 mb-5 mt-5 border-none " >
-      <div class="card  " style="width: 25rem; border: none; background-color: transparent;">
-          <img src="./IMG/Rectangle 3304.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title"><a href="#">10 Simple and Sexy Ankara Gowns</a></h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          </div>
-      </div>
-      <div class="card" style="width: 25rem; background-color: transparent; border: none;">
-          <img src="./IMG/Rectangle 3305.png" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title"><a href="#">How To Style Oversized T-shirt</a></h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          </div>
-      </div>
-      <div class="card" style="width: 25rem; background-color: transparent;border: none;">
-          <img src="./IMG/Rectangle 3306.png" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title"><a href="#">Monday Styles</a></h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          </div>
-      </div>
-
-  </div>
-        
-        
-
-    </main>
+        </div>  
+  </main> 
     <!--  div for FASHION HACKS -->
     <div class="d-flex">
       <h5 class="inspiration">Fashion Hacks</h5>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;

@@ -118,6 +118,9 @@ article .card-text{
     margin-top: -10px;
     
 }
+/* main #click{
+    display: none;
+} */
  .inspiration{
     font-family: 'Crimson Foam', sans-serif;
     margin-top: 40px;
@@ -127,6 +130,10 @@ article .card-text{
 }
 main .inspire{
     margin: 10px;
+}
+main button{
+    width: 80px;
+    height: 50px;
 }
 main .view{
     margin-top: 80px;
@@ -147,6 +154,12 @@ main a:hover{
     text-decoration: underline;
     color: red;
 }
+/* main .view-all{
+    display: none;
+}
+main .view-all:focus-within{
+    display: ;
+} */
 footer{
     background: rgba(244, 234, 223, 1);
     margin-top: 80px;
@@ -194,6 +207,14 @@ footer a{
     top: 0px;
     width: 100vw;
  }
+ section .offcanvas-body {
+    margin: 0;
+    /* font-size: 20px; */
+    /* font-weight: bold; */
+ }
+ /* section .navbar-toggler-icon{
+    color: white;
+ } */
 
 
  @media (width:360px) {
@@ -219,7 +240,15 @@ footer a{
     
  }
  @media (max-width:600px) {
-    
+    hr{
+        width: 60px;
+        font-weight: bolder;
+        margin-top: 110px;
+    }
+    section .offcanvas-body a{
+        font-size: 20px;
+        /* font-weight: bold; */
+     }
     
 
     section .navbar-brand{

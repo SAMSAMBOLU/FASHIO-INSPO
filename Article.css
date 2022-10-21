@@ -109,9 +109,7 @@ main .text{
     color: red;
 
 }
-main .about{
 
-}
 .bg{
         background: white;
         overflow-x: hidden;
@@ -163,7 +161,10 @@ footer a{
  }
 
  @media (max-width:600px) {
-    
+    section .offcanvas-body a{
+        font-size: 20px;
+        /* font-weight: bold; */
+     }
     main .row{
         display: block;
         

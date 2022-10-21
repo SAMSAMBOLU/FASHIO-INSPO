@@ -1,0 +1,264 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    overflow-x: hidden;
+}
+a{
+    text-decoration: none;
+}
+ ul li{
+    list-style: none;
+ }
+.row{
+    border: none;
+}
+section{
+    /* background-position: center; */
+    opacity: 0.84;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(./IMG/UkY5.gif);
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    
+}
+ section .navbar-toggler-icon{
+    color: white;
+}
+section .navbar-brand{
+    font-family: Helvetica;
+    letter-spacing: 0.10rem;
+    font-size: 24px;
+    letter-spacing: 22%;
+    margin-left: 12vw;
+}
+
+section .nav-link{
+    font-family: Helvetica;
+    font-size: 16px;
+}
+section .versatile{
+    position: absolute;
+    top: 50vh;
+    left: 70px;
+
+}
+section .Item{
+    font-style: italic;
+    font-size: 840%; 
+    width: 400;
+    line-height: 70%;
+    vertical-align: Top;
+    font-family: 'Crimson Foam', sans-serif;
+}
+section .closet{
+    font-family: Playfair Display;
+    font-size: 46px;
+    margin-left: 44%;
+    letter-spacing: 6%;
+}
+section .view{
+    margin-left: 55%;
+
+}
+section .w_5{
+    font-size: 16px;
+}
+section .social{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    position: absolute;
+    top: 74vh;
+    left: 93vw;
+    
+
+}
+section .icon{
+    font-size: 20px;
+}
+section .active{
+    font-size: 16px;
+    font-weight: 500;
+}
+center .two{
+    margin-top: -7.6%;
+}
+center .three{
+    margin-top: -12%;
+}
+center .fourth{
+    margin-top:-16% ;
+}
+center .one{
+    margin-top: -14.5%;
+}
+center .twos{
+    margin-top: -6.7%;
+}
+center img{
+    margin-left: -5.2px;
+}
+footer{
+    background: rgba(244, 234, 223, 1);
+    margin-top: 80px;
+    
+}
+footer .follow-us{
+    font-family: 'Crimson Foam', sans-serif;
+    margin-top: 40px;
+    font-size: 112px;
+    font-weight: 400;
+    
+    
+}
+footer .Follow{
+    display: flex;
+}
+footer hr{
+    width: 250px;
+}
+footer img{
+    width: 220px;
+    height: 500px;
+    object-fit: cover;
+}
+footer a{
+    text-decoration: none;
+    /* column-gap: 40px; */
+    color: black;
+    margin-left: 20px;
+    
+}
+ footer span{
+    margin-left: 42vw;
+    
+ }
+ footer .brand{
+    font-family: Helvetica;
+    letter-spacing: 0.10rem;
+    font-size: 18px;
+    letter-spacing: 22%;
+    margin-left: 5vw;
+ }
+ section .offcanvas-end{
+    position: absolute;
+    left: 0px;
+    height: 100vh;
+    top: 0px;
+    width: 100vw;
+    /* background-color: white; */
+ }
+ section .offcanvas-title{
+    display: inline;
+    color: black;
+    font-size: 23px;
+ }
+ section .active{
+    font-size: 20px;
+ }
+ 
+ @media (max-width:600px) {
+    section .offcanvas-body a{
+        font-size: 20px;
+        font-weight: bold;
+     }
+    
+
+    section .navbar-brand{
+        font-family: Helvetica;
+        letter-spacing: 0.10rem;
+        font-size: 15px;
+        letter-spacing: 22%;
+        margin-left: 5vw;
+    }
+    section .nav-link{
+        font-family: Helvetica;
+        font-size: 11px;
+        /* display: none; */
+    }
+    .footer{
+        text-align: center;
+    }
+    .footer img{
+        width: 100px;
+        height: 100px;
+        margin: 5px;
+        border-radius: 5px;
+    }
+    footer .row{
+        display: flex;
+        flex-direction: column;
+        column-gap: 4px;
+        margin: 3px;
+        
+    }
+    footer span{
+        margin-left: 26vw;
+        
+     }
+    section .closet{
+        margin-left: 20%;
+    }
+    section {
+        width: 100vw;
+        
+    }
+    section .versatile{
+        position: absolute;
+        top: 40vh;
+        left: 30px;
+    
+    }
+    section .Item{
+        font-style: italic;
+        font-size: 660%; 
+        width: 300;
+        line-height: 70%;
+        vertical-align: Top;
+        font-family: 'Crimson Foam', sans-serif;
+    }
+    section .closet{
+        font-family: Playfair Display;
+        font-size: 110%;
+        margin-left: 12%;
+        letter-spacing: 6%;
+    }
+    section .social{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        position: absolute;
+        top: 62vh;
+        left: 90vw;
+        
+    
+    }
+    section .btn{
+        margin-left: 34vw;
+        background: black;
+        color: white;
+        margin-top: -4%
+        
+    }
+    section .icon{
+        font-size: 18px;
+    }
+    main .inspiration{
+        font-family: 'Crimson Foam', sans-serif;
+        margin-top: 40px;
+        font-size: 80px;
+        font-weight: 300;
+        
+        /* font-weight: ; */
+    }
+    footer span{
+        margin-left: 25vw;
+        
+     }
+    }
+
+
